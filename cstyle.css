@@ -1,0 +1,35 @@
+body{
+    background: url(1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.Registration{
+    max-width: 400px;
+    border-right: 20px;
+    margin: auto;
+    background: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #ff6666;
+    margin-top: 100px;
+}
+
+h2{
+    text-align: center;
+}
+
+input[type=text],input[type=password],input[type=Email]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+    margin: 5px;
+    border-bottom: 1px solid;
+}
+
+.btn{
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 4px;
+    border-radius: 5px;
+}
